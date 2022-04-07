@@ -1,0 +1,89 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+body{   /* 1st parameter is for top and bottom while the 2nd parameter is left and right*/
+    margin:0rem 2rem;
+}
+header{
+    display:flex;
+    justify-content: space-between; /* this is used to give spacing btw elements in header i.e h1 and nav*/
+    align-items: center; /* it will keep h1 and nav as horizontally centered*/
+}
+header h1{
+    margin-left: 1rem;
+}
+a{
+    text-decoration: none;
+}
+a:link
+{
+    color:black;
+}
+a:visited{
+    color:black;
+}
+a:hover
+{
+    color:red;
+}
+a:active
+{
+    color:red;
+}
+nav{
+    margin-right: 1rem;
+}
+ul{
+    display:flex;
+    /* border:1px solid red; */
+     width: 30rem;
+   justify-content: space-evenly;
+   
+    
+}
+ul>li{
+    width:30%;
+    font-size: 1.5rem;
+    
+}
+li{
+    list-style: none;
+}
+.main-img
+{
+    width:100%;
+    height:auto;
+}
+.parent
+{   
+    margin-top: 2rem ;
+    display:flex;
+    text-align: center;
+    justify-content: space-evenly;
+
+}
+.child
+{
+    width:30%;
+}
+
+
+.footer_parent
+{  
+    height: 5rem;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.footer_content {
+    color: white;
+    /* boldness */
+    font-weight: 500;
+    font-size: 1.5rem;
+    /* enforce uppercase */
+    text-transform: uppercase;
+   
+}
